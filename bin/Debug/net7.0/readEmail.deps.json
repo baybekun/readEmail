@@ -1,0 +1,443 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "readEmail/1.0.0": {
+        "dependencies": {
+          "Google.Apis.Auth": "1.64.0",
+          "Google.Apis.Gmail.v1": "1.64.0.3287",
+          "HtmlAgilityPack": "1.11.57",
+          "Magick.NET-Q8-AnyCPU": "13.5.0",
+          "Selenium.WebDriver": "4.16.2",
+          "Selenium.WebDriver.ChromeDriver": "120.0.6099.10900",
+          "pythonnet": "3.0.3"
+        },
+        "runtime": {
+          "readEmail.dll": {}
+        }
+      },
+      "Google.Apis/1.64.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.64.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.64.0": {
+        "dependencies": {
+          "Google.Apis": "1.64.0",
+          "Google.Apis.Core": "1.64.0",
+          "System.Management": "7.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.64.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.64.0.0",
+            "fileVersion": "1.64.0.0"
+          }
+        }
+      },
+      "Google.Apis.Gmail.v1/1.64.0.3287": {
+        "dependencies": {
+          "Google.Apis": "1.64.0",
+          "Google.Apis.Auth": "1.64.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Gmail.v1.dll": {
+            "assemblyVersion": "1.64.0.3287",
+            "fileVersion": "1.64.0.3287"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.57": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.57.0",
+            "fileVersion": "1.11.57.0"
+          }
+        }
+      },
+      "Magick.NET-Q8-AnyCPU/13.5.0": {
+        "dependencies": {
+          "Magick.NET.Core": "13.5.0"
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll": {
+            "assemblyVersion": "13.5.0.0",
+            "fileVersion": "13.5.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/Magick.Native-Q8-arm64.dll.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/Magick.Native-Q8-arm64.dll.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/Magick.Native-Q8-arm64.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q8-x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          }
+        }
+      },
+      "Magick.NET.Core/13.5.0": {
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "assemblyVersion": "13.5.0.0",
+            "fileVersion": "13.5.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "pythonnet/3.0.3": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Python.Runtime.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.16.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {},
+      "System.CodeDom/7.0.0": {
+        "runtime": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Management/7.0.2": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Management.dll": {
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.2",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "readEmail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ki3AJDiTuV5Cb7NUyq+0DDGDLWcPCKbZC1HgyvAW+o/I0rY/HXMvv6IAF65hhfbQB/Scfm8nuAW3weNEXYkxw==",
+      "path": "google.apis/1.64.0",
+      "hashPath": "google.apis.1.64.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u3cwX0E3IpAkROzRPgZtohFSS2DUblkSmwMfh3/2Qwbi/QXHd8ebq2JuCNqmfpJyfgW5AG0+fO0UrrLsYtglMQ==",
+      "path": "google.apis.auth/1.64.0",
+      "hashPath": "google.apis.auth.1.64.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bqrUhDeMFeMdjtv4QT4Z99WDPSEbS6EKnp1bYvqyc/VpEu4oFNMqw8/bk/7SS7Ko+bodDgum8fkvDwCMZtdWDg==",
+      "path": "google.apis.core/1.64.0",
+      "hashPath": "google.apis.core.1.64.0.nupkg.sha512"
+    },
+    "Google.Apis.Gmail.v1/1.64.0.3287": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uzcXBObtlJliWi7rel4YfbtG5aX6I88y65AJNokDxPXBFiU12KC/xk2Rv+t2YDTRNgMjjLOWpfxD8vSoabGYJQ==",
+      "path": "google.apis.gmail.v1/1.64.0.3287",
+      "hashPath": "google.apis.gmail.v1.1.64.0.3287.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDxnHcAvi+qhZG602eKaPJKmzm0T8npKVML0RMwjrRBabpmTRtu2OVpfNkMUfYMgQ+5EllOkSeGxu0uFVV2zFw==",
+      "path": "htmlagilitypack/1.11.57",
+      "hashPath": "htmlagilitypack.1.11.57.nupkg.sha512"
+    },
+    "Magick.NET-Q8-AnyCPU/13.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sligcmLf6Re91Z8XO15HbTADc9GZbZmJK+0jpm8lK+x3IVb2nIAUy4mmBzstADeIIkN5FShC7V/Ij4mygogxSg==",
+      "path": "magick.net-q8-anycpu/13.5.0",
+      "hashPath": "magick.net-q8-anycpu.13.5.0.nupkg.sha512"
+    },
+    "Magick.NET.Core/13.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/jKqfhbLvaVqxsV+DkOA5TjfrbO/Q3LdN3OL/xuewdC2EVBN4pTnAekAetn3CsbHOolfvc1xQLxY0MUN3nfwsg==",
+      "path": "magick.net.core/13.5.0",
+      "hashPath": "magick.net.core.13.5.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "pythonnet/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Go6pLzJ0msUVISUDf4n49GFja/7PbrjfQ9Nxpz+KV0r39YB8x5lPz7sItX38a0KGLoQIsSMxkUNDRjGRvplLHw==",
+      "path": "pythonnet/3.0.3",
+      "hashPath": "pythonnet.3.0.3.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5BI/v+LpPma+o5ijzy1jDqnbYBBu99UQYPhvZkSBnXY6PoDKLP//aMiX8XODNJHHcRwGXeaxKR61ISO6ejXExA==",
+      "path": "selenium.webdriver/4.16.2",
+      "hashPath": "selenium.webdriver.4.16.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wCOew6C9ABCRK59DdzdJyoQKmVQEUrVQEvoDQdhnLWpW1OkFKG5pd9EK6B3j2vcqdNTBNM6++tAOhBMFezHm3w==",
+      "path": "selenium.webdriver.chromedriver/120.0.6099.10900",
+      "hashPath": "selenium.webdriver.chromedriver.120.0.6099.10900.nupkg.sha512"
+    },
+    "System.CodeDom/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "path": "system.codedom/7.0.0",
+      "hashPath": "system.codedom.7.0.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Management/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
+      "path": "system.management/7.0.2",
+      "hashPath": "system.management.7.0.2.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}

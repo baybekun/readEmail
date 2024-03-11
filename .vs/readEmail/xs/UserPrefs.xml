@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{34425119-7B4F-4753-BC5D-DD91DF920EF1}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="87" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="readEmail" expanded="True">
+            <Node name="readEmail" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Savedata" expanded="True">
+                <Node name="TemporaryEmail" expanded="True" />
+                <Node name="TemporaryFolder" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.readEmail PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

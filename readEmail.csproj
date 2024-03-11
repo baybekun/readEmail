@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.64.0" />
+    <PackageReference Include="Google.Apis.Gmail.v1" Version="1.64.0.3287" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.57" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.16.2" />
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="13.5.0" />
+    <PackageReference Include="pythonnet" Version="3.0.3" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="120.0.6099.10900" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Savedata\" />
+    <None Remove="PythonLoadmodel\" />
+    <None Remove="Savedata\TemporaryFolder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Savedata\" />
+    <Folder Include="PythonLoadmodel\" />
+    <Folder Include="Savedata\TemporaryFolder\" />
+  </ItemGroup>
+</Project>
